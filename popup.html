@@ -1,0 +1,28 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Latest Feed Fetcher</title>
+    <style>
+      body{
+        width:500px;
+      }
+      #main{
+       width: 100%;
+      display: inline-grid;
+      }
+    </style>
+  </head>
+    <body>
+      <h2><center>Get the latest Feeds :D </center></h2>
+      <div id="main">
+        <button type="submit" id="button">Refresh</button>
+      </div>  
+    </body>
+     <script type="text/javascript" src="popup.js"></script>
+</html>
+
