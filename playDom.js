@@ -27,7 +27,7 @@ function refresh(){
         var nfe =$(dom).find('.feed-s-new-update-pill__new-update-button'); // New feed element
         if(nfe.length>0){
             console.log("New feeds");
-            nfe.click();
+            $('.feed-s-new-update-pill__new-update-button').click();
         }
         else{
             console.log("No new feed");
